@@ -164,6 +164,9 @@ Consigna: Intercambiar con el docente los hallazgos que el presente. Desagregar 
 
 
 
+```{r}
+head(iris)
+```
 
 
 
