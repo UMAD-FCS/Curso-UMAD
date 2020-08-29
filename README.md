@@ -82,8 +82,8 @@ agrupadas. Validez estadística y validez interna.
 
 <br />
 
-En los siguientes links puede encontrar recuros de uitilidad para
-iniciar en R:
+En los siguientes links puede encontrar recuros de utilidad para
+iniciarse en R:
 
   - [Instalación]()
   - [Introducción simple 1]()
