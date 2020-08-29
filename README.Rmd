@@ -29,9 +29,9 @@ Este es un curso que ofrece la [Unidad de Métodos y Acceso a Datos (UMAD)](http
 
 Puede acceder a un programa detallado del curso en este [link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa)
 
-* :page_facing_up: [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)     
-* :1234: [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)        
-* :computer: [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
+:page_facing_up: [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)        
+:1234: [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)             
+:computer: [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)   
 
 
 

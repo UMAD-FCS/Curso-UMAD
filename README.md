@@ -28,12 +28,12 @@ tratamiento.
 Puede acceder a un programa detallado del curso en este
 [link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa)
 
-  - :page\_facing\_up:
-    [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
-  - :1234:
-    [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)  
-  - :computer:
-    [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
+:page\_facing\_up:
+[Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
+:1234:
+[Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)  
+:computer:
+[Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
 
 ### Sesiones
 
