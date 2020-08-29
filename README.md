@@ -9,11 +9,14 @@
 
 ## Recursos, usos y estrategias para el tratamiento sistemático de datos en proyectos y trabajos de estudiantes
 
+**Docentes:** *Fernando Filgueira, Fabricio Carneiro, Nicolás Schmidt,
+Jimena Pandolfi, Gustavo Méndez Santiago López Cariboni*
+
 Este es un curso que ofrece la [Unidad de Métodos y Acceso a Datos
 (UMAD)](https://umad.cienciassociales.edu.uy/) de la Facultad de
 Ciencias Sociales de la Universidad de la República. Este curso busca
 familiarizar al estudiante con los recursos disponibles en la Unidad de
-Métodos y Acceso a datos y ejemplificar diferentes estrategias para
+Métodos y Acceso a Datos y ejemplificar diferentes estrategias para
 explotar dichos recursos mediante módulos que se presentarán a lo largo
 del curso. Asimismo para abordar dichos ejemplos se ofrece una breve
 introducción a temas de diseño metodológico y herramientas de análisis.
@@ -25,11 +28,12 @@ tratamiento.
 Puede acceder a un programa detallado del curso en este
 [link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa)
 
-Puede acceder:
-
-  - [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
-  - [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)  
-  - [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
+  - :page\_facing\_up:
+    [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
+  - :1234:
+    [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)  
+  - :computer:
+    [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
 
 ### Sesiones
 
@@ -64,3 +68,21 @@ estadística y validez interna.
 
 **Sesión 10:** Series de tiempo, análisis de series temporales
 agrupadas. Validez estadística y validez interna.
+
+<br /> <br />
+
+> :point\_right: **IMPORTANTE:** *Todos los laboratorios de este curso
+> se realizan con el software estadístico R. Para realizar este curso no
+> es necesario saber usar dicha herramienta ya a los estudiantes se les
+> entregarán las rutinas (scripts) para que solo deban ejecutarlas.*
+
+<br />
+
+En los siguientes links puede encontrar recuros de uitilidad para
+iniciar en R:
+
+  - [Instalación]()
+  - [Introducción simple 1]()
+  - [Introducción simple 2]()
+  - [Introducción simple 3]()
+  - [Introducción simple 4]()
