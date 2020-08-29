@@ -71,9 +71,9 @@ agrupadas. Validez estadística y validez interna.
 
 <br /> <br />
 
-> :point\_right: **IMPORTANTE:** *Todos los laboratorios de este curso
-> se realizan con el software estadístico R. Para realizar este curso no
-> es necesario saber usar dicha herramienta ya a los estudiantes se les
+> :warning: **IMPORTANTE:** *Todos los laboratorios de este curso se
+> realizan con el software estadístico R. Para realizar este curso no es
+> necesario saber usar dicha herramienta ya a los estudiantes se les
 > entregarán las rutinas (scripts) para que solo deban ejecutarlas.*
 
 <br />
