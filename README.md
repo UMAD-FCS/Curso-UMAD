@@ -21,13 +21,14 @@ conocimiento exhaustivo de los recursos disponibles en la UMAD, la
 estructura de un subconjunto clave de bases de datos y la introducción a
 herramientas para su tratamiento.
 
-Puede acceder a un programa detallado del curso en este [link]()
+Puede acceder a un programa detallado del curso en este
+[link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa)
 
 Puede acceder:
 
-  - [Presentaciones]()  
-  - [Datos]()  
-  - [Código]()
+  - [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
+  - [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)  
+  - [Código](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Codigo)
 
 ### Sesiones
 
