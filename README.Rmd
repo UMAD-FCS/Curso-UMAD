@@ -27,7 +27,7 @@ __Docentes:__ _Fernando Filgueira, Fabricio Carneiro, Nicolás Schmidt, Jimena P
 
 Este es un curso que ofrece la [Unidad de Métodos y Acceso a Datos (UMAD)](https://umad.cienciassociales.edu.uy/) de la Facultad de Ciencias Sociales de la Universidad de la República. Este curso busca familiarizar al estudiante con los recursos disponibles en la Unidad de Métodos y Acceso a Datos y ejemplificar diferentes estrategias para explotar dichos recursos mediante módulos que se presentarán a lo largo del curso. Asimismo para abordar dichos ejemplos se ofrece una breve introducción a temas de diseño metodológico y herramientas de análisis. Al finalizar el curso el estudiante tendrá un conocimiento exhaustivo de los recursos disponibles en la UMAD, la estructura de un subconjunto clave de bases de datos y la introducción a herramientas para su tratamiento.  
 
-Puede acceder a un programa detallado del curso en este [link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa)
+Puede acceder a un programa detallado del curso en este [link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa_curso_UMAD.pdf)
 
 :page_facing_up: [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)        
 :1234: [Datos](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Datos)             
