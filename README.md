@@ -55,8 +55,7 @@ ingresos y vivienda desde las encuestas de hogares. Ejemplos de trabajo
 con la ECH en Uruguay.
 
 **Sesión 7:** Análisis electoral. Encuestas de intención de voto, votos,
-partidos, representación. Series históricas y su análisis. Las
-elecciones departamentales: encuestas de intención de voto.
+partidos, representación. Series históricas y su análisis.
 
 **Sesión 8:** Utilizando los sistemas de consulta personalizada para
 pensar preguntas de investigación y de allí a los micro-datos. Un
@@ -77,8 +76,8 @@ agrupadas. Validez estadística y validez interna.
 > 
 > Todos los laboratorios de este curso se realizan con el software
 > estadístico R. Para realizar este curso no es necesario saber usar
-> dicha herramienta ya a los estudiantes se les entregarán las rutinas
-> (scripts) para que solo deban ejecutarlas.
+> dicha herramienta ya que a los estudiantes se les entregarán las
+> rutinas (scripts) para que solo deban ejecutarlas.
 
 <br />
 

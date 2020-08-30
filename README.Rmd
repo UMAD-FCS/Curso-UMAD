@@ -49,7 +49,7 @@ Puede acceder a un programa detallado del curso en este [link](https://github.co
 
 **Sesión 6:** Respondiendo preguntas sobre desigualdad, pobreza, empleo, ingresos y vivienda desde las encuestas de hogares. Ejemplos de trabajo con la ECH en Uruguay.
 
-**Sesión 7:** Análisis electoral. Encuestas de intención de voto, votos, partidos, representación. Series históricas y su análisis. Las elecciones departamentales: encuestas de intención de voto.
+**Sesión 7:** Análisis electoral. Encuestas de intención de voto, votos, partidos, representación. Series históricas y su análisis.
 
  **Sesión 8:** Utilizando los sistemas de consulta personalizada para pensar preguntas de investigación y de allí a los micro-datos. Un ejemplo desde el los recursos de la UMAD.
 
@@ -63,7 +63,7 @@ Puede acceder a un programa detallado del curso en este [link](https://github.co
 
 > :warning: **IMPORTANTE** :warning:
 >
-> Todos los laboratorios de este curso se realizan con el software estadístico R. Para realizar este curso no es necesario saber usar dicha herramienta ya a los estudiantes se les entregarán las rutinas (scripts) para que solo deban ejecutarlas.
+> Todos los laboratorios de este curso se realizan con el software estadístico R. Para realizar este curso no es necesario saber usar dicha herramienta ya que a los estudiantes se les entregarán las rutinas (scripts) para que solo deban ejecutarlas.
 
 <br />
 
