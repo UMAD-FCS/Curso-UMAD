@@ -84,12 +84,13 @@ agrupadas. Validez estadística y validez interna.
 En los siguientes links puede encontrar recuros (:books:) de utilidad
 para iniciarse en R:
 
-:closed\_book: *Breve manual de instalación de R y RStudio.* [link]()  
+:closed\_book: *Flujo de trabajo: proyectos en RStudio.*
+[link](https://es.r4ds.hadley.nz/flujo-de-trabajo-proyectos.html)  
 :green\_book: *Introducción a R.*
 [link](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)  
 :blue\_book: *Curso de Introducción al software estadístico R
 (IntRo).*[link](https://nicolas-schmidt.github.io/IntRo//index.html)  
-:orange\_book: *El arte de programar en R. Un lenguaje para la
-estadística.*
-[linki](https://cran.r-project.org/doc/contrib/Santana_El_arte_de_programar_en_R.pdf)  
-:ledger: *R para Ciencia de Datos.* [link](https://es.r4ds.hadley.nz/)
+:orange\_book: *R para Ciencia de Datos.*
+[link](https://es.r4ds.hadley.nz/)  
+:ledger: *Statistical Inference via Data Science. A ModernDive into R
+and the Tidyverse* [link](https://moderndive.com/)
