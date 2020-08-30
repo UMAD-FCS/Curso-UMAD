@@ -10,7 +10,7 @@
 ## Recursos, usos y estrategias para el tratamiento sistemático de datos en proyectos y trabajos de estudiantes
 
 **Docentes:** *Fernando Filgueira, Fabricio Carneiro, Nicolás Schmidt,
-Jimena Pandolfi, Gustavo Méndez Santiago López Cariboni*
+Jimena Pandolfi, Gustavo Méndez Santiago, López Cariboni*
 
 Este es un curso que ofrece la [Unidad de Métodos y Acceso a Datos
 (UMAD)](https://umad.cienciassociales.edu.uy/) de la Facultad de
