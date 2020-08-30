@@ -93,4 +93,4 @@ para iniciarse en R:
 :orange\_book: *R para Ciencia de Datos.*
 [link](https://es.r4ds.hadley.nz/)  
 :ledger: *Statistical Inference via Data Science. A ModernDive into R
-and the Tidyverse* [link](https://moderndive.com/)
+and the Tidyverse.* [link](https://moderndive.com/)
