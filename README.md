@@ -26,7 +26,7 @@ clave de bases de datos y la introducción a herramientas para su
 tratamiento.
 
 Puede acceder a un programa detallado del curso en este
-[link](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Programa_curso_UMAD.pdf)
+[link](https://github.com/UMAD-FCS/Curso-UMAD/blob/master/Insumos/Programa/Programa_curso_UMAD.pdf)
 
 :page\_facing\_up:
 [Presentaciones](https://github.com/UMAD-FCS/Curso-UMAD/tree/master/Insumos/Presentaciones)  
