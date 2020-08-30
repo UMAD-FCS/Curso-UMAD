@@ -88,8 +88,8 @@ para iniciarse en R:
 [link](https://es.r4ds.hadley.nz/flujo-de-trabajo-proyectos.html)  
 :green\_book: *Introducción a R.*
 [link](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)  
-:blue\_book: *Curso de Introducción al software estadístico R
-(IntRo).*[link](https://nicolas-schmidt.github.io/IntRo//index.html)  
+:blue\_book: *Curso de Introducción al software estadístico R (IntRo).*
+[link](https://nicolas-schmidt.github.io/IntRo//index.html)
 :orange\_book: *R para Ciencia de Datos.*
 [link](https://es.r4ds.hadley.nz/)  
 :ledger: *Statistical Inference via Data Science. A ModernDive into R
