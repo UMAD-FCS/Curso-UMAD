@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------- #
 #                               SESION III y IV
-#  Estructura b?sica de la informaci?n y elementos claves de la estad?stica 
+#  Estructura b?sica de la informacion y elementos claves de la estad?stica 
 #                     
 #                        CURSO EDUCACION PERMANENTE
 #                     Unidad de Metodos y Acceso a datos
@@ -26,13 +26,13 @@
 # 
 #  A partir de esta informaci?n:
 #  
-#  1) Construya una curva de distribuci?n de frecuencias simples del trabajo  
-#     remunerado. Establezca su media, moda, mediana, varianza y desv?o est?ndar.
+#  1) Construya una curva de distribucion de frecuencias simples del trabajo  
+#     remunerado. Establezca su media, moda, mediana, varianza y desvio estandar.
 #  
-#  2) Construya una curva de distribuci?n de frecuencias simples del trabajo no 
-#     remunerado. Establezca su media, moda, mediana, varianza y desv?o est?ndar.
+#  2) Construya una curva de distribucion de frecuencias simples del trabajo no 
+#     remunerado. Establezca su media, moda, mediana, varianza y desvio estandar.
 #  
-#  3) Generar un gr?fico de tipo scatter y la regresi?n lineal que surge de 
+#  3) Generar un grafico de tipo scatter y la regresion lineal que surge de 
 #     combinar estas dos variables.
 #  
 #  4) Comparar las medias de ambas variables a partir de la variable sexo.
@@ -73,7 +73,7 @@ eut2013exp = merge(out2, eut2013, by = "numero")
 
 # ---------------------------------------------------------------------------- #
 #  1) Construya una curva de distribuci?n de frecuencias simples del trabajo  
-#     remunerado. Establezca su media, moda, mediana, varianza y desv?o est?ndar.
+#     remunerado. Establezca su media, moda, mediana, varianza y desvio estandar.
 # ---------------------------------------------------------------------------- #
 
 
@@ -141,8 +141,8 @@ abline(v = median(hace_tr$hstr_sem),lty=3, col = "blue")
 
 
 # ---------------------------------------------------------------------------- #
-#  2) Construya una curva de distribuci?n de frecuencias simples del trabajo no 
-#     remunerado. Establezca su media, moda, mediana, varianza y desv?o est?ndar.
+#  2) Construya una curva de distribucion de frecuencias simples del trabajo no 
+#     remunerado. Establezca su media, moda, mediana, varianza y desvio estandar.
 # ---------------------------------------------------------------------------- #
 
 
@@ -180,7 +180,7 @@ abline(v = median(hace_tnr$hstnr_sem),lty=3, col = "blue")
 
 
 # ---------------------------------------------------------------------------- #
-#  3) Generar un gr?fico de tipo scatter y la regresi?n lineal que surge de 
+#  3) Generar un grafico de tipo scatter y la regresion lineal que surge de 
 #     combinar estas dos variables.
 # ---------------------------------------------------------------------------- #
 
@@ -217,7 +217,7 @@ mujeres <- filter(eut2013exp, sexo == "mujer" , hstr_sem>0, hstnr_sem>0)
 varones <- filter(eut2013exp, sexo == "hombre", hstr_sem>0, hstnr_sem>0)
 
 
-# Gr?fico: Trabajo remunerado seg?n sexo
+# Grafico: Trabajo remunerado segun sexo
 
 plot (density(mujeres$hstr_sem), col = "red" , ylim = c(0, 0.2)); 
 abline(v=mean(mujeres$hstr_sem),lty=3, col = "red")
@@ -227,7 +227,7 @@ legend("topright", c("Mujeres", "Varones"),
        lty = 1, col = c("red", "green")
        )
 
-# Gr?fico: Trabajo no remunerado seg?n sexo
+# Gr?fico: Trabajo no remunerado segun sexo
 
 plot (density(mujeres$hstnr_sem), col = "red" , ylim = c(0, 0.07)); 
 abline(v=mean(mujeres$hstnr_sem),lty=3, col = "red")
