@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------- #
 #                               SESION III y IV
-#  Estructura b?sica de la informacion y elementos claves de la estad?stica 
+#  Estructura basica de la informacion y elementos claves de la estad?stica 
 #                     
 #                        CURSO EDUCACION PERMANENTE
 #                     Unidad de Metodos y Acceso a datos
@@ -18,7 +18,7 @@
 #  Se entrega una fragmento de la Encuesta Uso del Tiempo y el trabajo no
 #  remunerdado (EUT) de 2013 con las siguientes variables:
 #  
-#  numero:      c?digo identificador del hogar
+#  numero:      codigo identificador del hogar
 #  pesoeut:     ponderador de la base de datos
 #  hstr_sem:    horas de trabajo remunerado semanales
 #  hstnr_sem:   horas de trabajo no remunerado semanales
