@@ -19,8 +19,8 @@
 #  Se entregan los microdatos de la Encuesta continua de Hogares 2019 (INE).
 #  A partir de esta informacion realice las siguientes activiades
 # 
-#  1) Construya una variabe que indique la condici?n de activiad de las personas
-#     con las siguientes categoria. Para su construcci?n consulte el diccionario 
+#  1) Construya una variabe que indique la condicion de activiad de las personas
+#     con las siguientes categoria. Para su construccion consulte el diccionario 
 #     de variables, el formulario, el manual de encuestador y los metadatos del
 #     Instituto Nacional de Estad?stica. 
 #     1. Menores de 14 anos
@@ -37,12 +37,12 @@
 #     por el INE en los microdatos publicados?
 # 
 #  4) Calcule las tasas de actividad, empleo y desempleo para Montevideo, las 
-#     ciudades del interior con m?s de 5.000 habitantes y las ciudades
+#     ciudades del interior con mas de 5.000 habitantes y las ciudades
 #     del interior con menos de 5.000 habitantes. Compare los resultados. 
 # 
 #  5) Analice las tasas de actividad, empleo y desempleo en Montevideo y su 
 #     area metropolitana. Hay diferencias en estos indicadores de empleo 
-#     entre el area que corresponde a Canelones y San Jose? ?Hay diferencias
+#     entre el area que corresponde a Canelones y San Jose? Hay diferencias
 #     entre municipios?
 #  
 # ---------------------------------------------------------------------------- #
@@ -218,8 +218,8 @@ table (ech2019$condicion)
 # ---------------------------------------------------------------------------- #
 
 #~~~~~~~~~~~#
-# TASA DE ACTIVIDAD: Cociente entre la poblaci?n activa (ocupados y desempleados)
-#                     y la poblaci?n en edad de trabajar (mayores de 14 anos).
+# TASA DE ACTIVIDAD: Cociente entre la poblacion activa (ocupados y desempleados)
+#                     y la poblacion en edad de trabajar (mayores de 14 anos).
 #~~~~~~~~~~~#
 
 pea <- filter(ech2019, (ocupados == 1 | desempleados == 1))
@@ -259,7 +259,7 @@ tasas_totalpais
 
 
 # ---------------------------------------------------------------------------- #
-#  3) A partir de la revisi?n de los metadatos del INE analice las posibilidades
+#  3) A partir de la revision de los metadatos del INE analice las posibilidades
 #     analisis geografico que habilita a encuesta. Para que unidades de analisis
 #     es representativa? Que variables de agrupacion territorial son provistas
 #     por el INE en los microdatos publicados?
