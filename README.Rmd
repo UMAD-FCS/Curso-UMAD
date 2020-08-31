@@ -71,7 +71,7 @@ En los siguientes links puede encontrar recuros (:books:) de utilidad para inici
 
 :closed_book: *Flujo de trabajo: proyectos en RStudio.* [link](https://es.r4ds.hadley.nz/flujo-de-trabajo-proyectos.html)   
 :green_book: *Introducción a R.* [link](https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf)  
-:blue_book: *Curso de Introducción al software estadístico R (IntRo).* [link](https://nicolas-schmidt.github.io/IntRo//index.html) 
+:blue_book: *Curso de Introducción al software estadístico R (IntRo).* [link](https://nicolas-schmidt.github.io/IntRo//index.html)   
 :orange_book: *R para Ciencia de Datos.* [link](https://es.r4ds.hadley.nz/)   
 :ledger: *Statistical Inference via Data Science. A ModernDive into R and the Tidyverse.* [link](https://moderndive.com/)   
 
