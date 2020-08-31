@@ -17,13 +17,13 @@
 #  ** CONSIGNA DEL EJERCICIO **
 #  
 #  Se entregan los microdatos de la Encuesta continua de Hogares 2019 (INE).
-#  A partir de esta informaci?n realice las siguientes activiades
+#  A partir de esta informacion realice las siguientes activiades
 # 
 #  1) Construya una variabe que indique la condici?n de activiad de las personas
-#     con las siguientes categor?a. Para su construcci?n consulte el diccionario 
+#     con las siguientes categoria. Para su construcci?n consulte el diccionario 
 #     de variables, el formulario, el manual de encuestador y los metadatos del
 #     Instituto Nacional de Estad?stica. 
-#     1. Menores de 14 a?os
+#     1. Menores de 14 anos
 #     2. Ocupados
 #     3. Desocupados
 #     4. Inactivos
@@ -31,9 +31,9 @@
 # 
 #  2) Calcule las tasas de actividad, empleo y desempleo para el total pa?s
 # 
-#  3) A partir de la revisi?n de los metadatos del INE analice las posibilidades
-#     an?lisis geogr?fico que habilita a encuesta. ?Para qu? unidades de an?lisis
-#     es representativa? ?Qu? variables de agrupaci?n territorial son provistas
+#  3) A partir de la revision de los metadatos del INE analice las posibilidades
+#     analisis geografico que habilita a encuesta. Para que unidades de analisis
+#     es representativa? Que variables de agrupacion territorial son provistas
 #     por el INE en los microdatos publicados?
 # 
 #  4) Calcule las tasas de actividad, empleo y desempleo para Montevideo, las 
@@ -41,8 +41,8 @@
 #     del interior con menos de 5.000 habitantes. Compare los resultados. 
 # 
 #  5) Analice las tasas de actividad, empleo y desempleo en Montevideo y su 
-#     ?rea metropolitana. ?Hay diferencias en estos indicadores de empleo 
-#     entre el ?rea que corresponde a Canelones y San Jos?? ?Hay diferencias
+#     area metropolitana. Hay diferencias en estos indicadores de empleo 
+#     entre el area que corresponde a Canelones y San Jose? ?Hay diferencias
 #     entre municipios?
 #  
 # ---------------------------------------------------------------------------- #
@@ -58,18 +58,18 @@
 library(rio)
 library(tidyverse)
 
-setwd("C:/Users/Usuario/Dropbox/1. Unidad de M?todos y Acceso a Datos/4. Cursos/Educaci?n permanente_Recursos/Microdatos")
+setwd("C:/Users/Usuario/Dropbox/1. Unidad de M?todos y Acceso a Datos/4. Cursos/Educacion permanente_Recursos/Microdatos")
 ech2019 <- rio::import ("ECH2019.csv") 
 
 
 # ---------------------------------------------------------------------------- #
 
 # ---------------------------------------------------------------------------- #
-#  1) Construya una variabe que indique la condici?n de activiad de las personas
-#     con las siguientes categor?a. Para su construcci?n consulte el diccionario 
+#  1) Construya una variabe que indique la condicion de activiad de las personas
+#     con las siguientes categoria. Para su construccion consulte el diccionario 
 #     de variables, el formulario, el manual de encuestador y los metadatos del
 #     Instituto Nacional de Estad?stica. 
-#     1. Menores de 14 a?os
+#     1. Menores de 14 anos
 #     2. Ocupados
 #     3. Desocupados
 #     4. Inactivos
@@ -79,52 +79,52 @@ ech2019 <- rio::import ("ECH2019.csv")
 #~~~~~~~~~~~#
 # OCUPADOS 
 # 
-# Para identificar la poblaci?n ocupada tenga en cuenta que:
+# Para identificar la poblacion ocupada tenga en cuenta que:
 # 
-# Se entiene por poblaci?n ocupada a quienes ha trabajado como m?nimo una hora 
-# en una actividad econ?mica en la semana anterior (semana de referencia a la 
-# aplicaci?n de la encuesta). 
+# Se entiene por poblacion ocupada a quienes ha trabajado como minimo una hora 
+# en una actividad economica en la semana anterior (semana de referencia a la 
+# aplicacion de la encuesta). 
 #
 # Bajo este entendido revise las siguientes variables de la encuesta dado que 
 # identifican al conjunto de situaciones posibles para definir si la persona 
 # se encuentra ocupada o no:
 # 
-# (f269 == 1) Trabaj? la semana pasada .
-# (f270 == 1) La semana pasada, al menos una hora, colabor? en un negocio familiar 
-#             o llev? a cabo alg?n trabajo puntual y concreto 
-# (f271 == 1) Recibi? o recibir? un sueldo o pago
-# (f272 == 1) Trabaj? para un negocio del hogar
-# (f273 == 1) Aunque no trabaj? la semana pasada, tiene alg?n trabajo, negocio 
+# (f269 == 1) Trabajo la semana pasada .
+# (f270 == 1) La semana pasada, al menos una hora, colaboro en un negocio familiar 
+#             o llevo a cabo algun trabajo puntual y concreto 
+# (f271 == 1) Recibio o recibire un sueldo o pago
+# (f272 == 1) Trabajo para un negocio del hogar
+# (f273 == 1) Aunque no trabajo la semana pasada, tiene algun trabajo, negocio 
 #             o actividad por la que percibe habitualmente un pago
-# (f69 == 1)  No trabaj? por estar de licencia
-# ((f69 > 1 & f69 < 9) & (f274 = 1)) No trabaj? la semana pasada pero sigui? 
+# (f69 == 1)  No trabajo por estar de licencia
+# ((f69 > 1 & f69 < 9) & (f274 = 1)) No trabajo la semana pasada pero siguio 
 #             recibiendo sueldos o ganancias
-# (f275 < 3)  No trabaj? la semana pasada, pero volver? en menos de 12 semanas
-# (f276 == 1) Realiz? tareas agr?colas para producir alimentos para el consumo 
+# (f275 < 3)  No trabajo la semana pasada, pero volvera en menos de 12 semanas
+# (f276 == 1) Realiza tareas agricolas para producir alimentos para el consumo 
 #             del hogar
 # (f277 == 1) M?s de la mitad de lo que produce para consumo del hogar en el a?o, 
 #             lo destina a la venta
-# (f107 == 1) Busc? trabajo en la ?ltima semana
-# (f108 == 2 | f108 = 3) Tiene trabajo que comenzar? en los pr?ximos 30 d?as o 
+# (f107 == 1) Busco trabajo en la ultima semana
+# (f108 == 2 | f108 = 3) Tiene trabajo que comenzara en los proximos 30 dias o 
 #             est? esperando el resultado de gestiones ya emprendidas
 #~~~~~~~~~~~#
 
 #~~~~~~~~~~~#
 # DESEMPLEADOS
 # 
-# Para identificar la poblaci?n desocupada tenga en cuenta que:
+# Para identificar la poblacion desocupada tenga en cuenta que:
 # 
-# Se entiene por poblaci?n desocupada a quienes se refiere a personas que, 
-# no teniendo ocupaci?n, est?n buscando activamente trabajo. 
+# Se entiene por poblacion desocupada a quienes se refiere a personas que, 
+# no teniendo ocupacion, est?n buscando activamente trabajo. 
 # 
 # Bajo este entendido revise las siguientes variables de la encuesta dado que 
 # identifican al conjunto de situaciones posibles para definir si la persona 
 # se encuentra desocupada o no:
 # 
-# (f109 == 1) Busc? trabajo en las ?ltimas cuatro semanas 
-# (f110  < 7) Llev? acciones concretas de b?squeda 
-# (f116 == 1) Trabaj? alguna vez en su vida
-# (f116 == 2) No trabaj? nunca en su vida
+# (f109 == 1) Busco trabajo en las ultimas cuatro semanas 
+# (f110  < 7) Llevo acciones concretas de busqueda 
+# (f116 == 1) Trabajo alguna vez en su vida
+# (f116 == 2) No trabajo nunca en su vida
 # (f69  == 9) Se encuentra en seguro de desempleo (F.1)
 # (f117 == 1) Se encuentra en seguro de desempleo (F.6)
 #~~~~~~~~~~~#
@@ -132,9 +132,9 @@ ech2019 <- rio::import ("ECH2019.csv")
 #~~~~~~~~~~~#
 # INACTIVOS
 # 
-# Para identificar la poblaci?n desocupada tenga en cuenta que:
+# Para identificar la poblacion desocupada tenga en cuenta que:
 # 
-# Se considera poblaci?n inactiva a las personas mayores de 14 a?os que no
+# Se considera poblacion inactiva a las personas mayores de 14 anos que no
 # tienen trabajo ni lo buscan activamente. 
 #~~~~~~~~~~~#
 
@@ -214,12 +214,12 @@ table (ech2019$condicion)
 
              
 # ---------------------------------------------------------------------------- #
-#  2) Calcule las tasas de actividad, empleo y desempleo para el total pa?s
+#  2) Calcule las tasas de actividad, empleo y desempleo para el total pais
 # ---------------------------------------------------------------------------- #
 
 #~~~~~~~~~~~#
 # TASA DE ACTIVIDAD: Cociente entre la poblaci?n activa (ocupados y desempleados)
-#                     y la poblaci?n en edad de trabajar (mayores de 14 a?os).
+#                     y la poblaci?n en edad de trabajar (mayores de 14 anos).
 #~~~~~~~~~~~#
 
 pea <- filter(ech2019, (ocupados == 1 | desempleados == 1))
@@ -232,8 +232,8 @@ TA <- pea/pet*100
 TA
 
 #~~~~~~~~~~~#
-# TASA DE EMPLEO: Cociente entre la poblaci?n empleada y la poblaci?n en edad 
-#                 de trabajar (mayores de 14 a?os).
+# TASA DE EMPLEO: Cociente entre la poblacion empleada y la poblacion en edad 
+#                 de trabajar (mayores de 14 anos).
 #~~~~~~~~~~~#
 
 pobocupada <- filter(ech2019, ocupados == 1)
@@ -243,8 +243,8 @@ TE <- pobocupada/pet*100
 TE
 
 #~~~~~~~~~~~#
-# TASA DE DESEMPLEO: Cociente entre la poblaci?n desempleada y la poblaci?n 
-#                    econ?micamente activa.
+# TASA DE DESEMPLEO: Cociente entre la poblacion desempleada y la poblacion 
+#                    economicamente activa.
 #~~~~~~~~~~~#
 
 pobdesocupada <- filter(ech2019, desempleados == 1)
@@ -260,8 +260,8 @@ tasas_totalpais
 
 # ---------------------------------------------------------------------------- #
 #  3) A partir de la revisi?n de los metadatos del INE analice las posibilidades
-#     an?lisis geogr?fico que habilita a encuesta. ?Para qu? unidades de an?lisis
-#     es representativa? ?Qu? variables de agrupaci?n territorial son provistas
+#     analisis geografico que habilita a encuesta. Para que unidades de analisis
+#     es representativa? Que variables de agrupacion territorial son provistas
 #     por el INE en los microdatos publicados?
 # ---------------------------------------------------------------------------- #
 
@@ -269,7 +269,7 @@ tasas_totalpais
 
 # ---------------------------------------------------------------------------- #
 #  4) Calcule las tasas de actividad, empleo y desempleo para Montevideo, las 
-#     ciudades del interior con m?s de 5.000 habitantes y las ciudades
+#     ciudades del interior con mas de 5.000 habitantes y las ciudades
 #     del interior con menos de 5.000 habitantes. Compare los resultados. 
 # ---------------------------------------------------------------------------- #
 
@@ -308,8 +308,8 @@ tasas_r
 
 # ---------------------------------------------------------------------------- #
 #  5) Analice las tasas de actividad, empleo y desempleo en Montevideo y su 
-#     ?rea metropolitana. ?Hay diferencias en estos indicadores de empleo 
-#     entre el ?rea que corresponde a Canelones y San Jos?? ?Hay diferencias
+#     area metropolitana. Hay diferencias en estos indicadores de empleo 
+#     entre el area que corresponde a Canelones y San Jose? ?Hay diferencias
 #     entre municipios? 
 # ---------------------------------------------------------------------------- #
 
