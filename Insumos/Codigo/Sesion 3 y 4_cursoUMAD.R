@@ -24,7 +24,7 @@
 #  hstnr_sem:   horas de trabajo no remunerado semanales
 #  sexo:        sexo
 # 
-#  A partir de esta informaci?n:
+#  A partir de esta informacion:
 #  
 #  1) Construya una curva de distribucion de frecuencias simples del trabajo  
 #     remunerado. Establezca su media, moda, mediana, varianza y desvio estandar.
@@ -50,10 +50,11 @@
 library(rio)
 library(tidyverse)
 
-setwd("C:/Users/Usuario/Dropbox/1. Unidad de M?todos y Acceso a Datos/4. Cursos/Educaci?n permanente_Recursos/Microdatos")
-eut2013 <- rio::import (here::here("Scripts_curso", "EUT_2013_reduc.xls")) 
+setwd("C:/Users/Usuario/Dropbox/1. Unidad de M?todos y Acceso a Datos/4. Cursos/Educacion permanente_Recursos/Microdatos")
+eut2013 <- rio::import ("EUT_2013_reduc.xls")
 
-#Expansi?n de base de datos
+
+#Expansion de base de datos
 
 data0 <- unique(eut2013[,c(1, 2)])
 data2 <- split(data0, data0$numero)
