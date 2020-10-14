@@ -361,6 +361,7 @@ tasas_amet
 
 
 # Municipios
+# Códigos: 1 "A" 2 "B" 3 "C" 4 "D" 5 "E" 6 "F" 7 "G" 8 "CH"
 
 table(ech2019$ccz)
 
